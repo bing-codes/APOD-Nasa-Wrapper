@@ -18,7 +18,7 @@ def generate_photo():
         date = f"{year}-{month}-{day}"
 
         #alternate way to format get request using parameters
-        API_key = "ai5X8yRqPRAjOqDpfKrSKMbGHWQMdgk1cHL6QvR5" 
+        API_key = "" 
         endpoint = "https://api.nasa.gov/planetary/apod"
         params = {
             "api_key": API_key,
